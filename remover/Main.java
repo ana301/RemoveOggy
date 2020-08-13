@@ -6,8 +6,7 @@ import java.util.stream.Collectors;
 public class Main {
     public static void removeOggy(ArrayList<String> names) {
         
-        int size=names.size();
-        for(int i=0;i<size;){
+        for(int i=0;i<names.size();){
             if(names.get(i).contains("oggy")){
                 names.remove(i);
             }
